@@ -3,6 +3,9 @@
     "type": "project",
     "license": "MIT",
     "autoload": {
+        "files": [
+            "src/Cli.php"
+        ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
         }
@@ -13,5 +16,7 @@
             "email": "wolfofdeath@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "docopt/docopt": "^1.0"
+    }
 }
